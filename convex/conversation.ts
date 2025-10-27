@@ -1,9 +1,6 @@
-import { users } from "@clerk/clerk-sdk-node";
 import { mutation, query } from "./_generated/server";
 import { ConvexError, v } from "convex/values";
-import { Url } from "next/dist/shared/lib/router/router";
-import { promises } from "dns";
-import { conversations } from "@/components/dummy-data/db";
+
 
 export const createConversation=mutation({
 

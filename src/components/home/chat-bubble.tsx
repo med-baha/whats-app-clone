@@ -3,7 +3,7 @@ import ChatBubbleAvatar from "./chat-bubble-avatar";
 import { MessageSeenSvg } from "@/lib/svgs";
 import DateIndicator from "./date-indicator";
 import Image from "next/image";
-import { Children, useState } from "react";
+import {  useState } from "react";
 import { Dialog, DialogContent, DialogDescription, DialogPortal, DialogTitle } from "@radix-ui/react-dialog";
 type ChatBubbleProps={
 	message:IMessage,
