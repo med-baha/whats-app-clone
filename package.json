@@ -2,12 +2,12 @@
   "name": "whats-app-clone",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --no-lint",
-    "start": "next start",
-    "lint": "eslint"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build --no-lint",
+  "start": "next start"
+},
+
   "dependencies": {
     "@clerk/clerk-react": "^5.53.2",
     "@clerk/clerk-sdk-node": "^5.1.6",
