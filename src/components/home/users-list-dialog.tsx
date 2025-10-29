@@ -148,7 +148,7 @@ const UserListDialog = () => {
 								transition-all ease-in-out duration-300
 							${                              
 
-                                selectedUsers.includes(user._id) ? "bg-green-primary" : ""}`}
+                                selectedUsers.includes(user._id) ? "bg bg-green-600" : ""}`}
 							onClick={() => {
                               
 								if (selectedUsers.includes(user._id)) {
